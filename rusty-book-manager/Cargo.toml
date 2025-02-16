@@ -1,0 +1,12 @@
+[package]
+name = "rusty-book-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+axum = { version = "0.8.1", features = ["macros"] }
+tokio = { version = "1.37.0", features = ["full"] }
+
+[dev-dependencies]
+rstest = "0.24.0"
