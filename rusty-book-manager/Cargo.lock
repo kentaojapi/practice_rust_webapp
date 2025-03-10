@@ -58,6 +58,17 @@ name = "api"
 version = "0.1.0"
 
 [[package]]
+name = "async-trait"
+version = "0.1.86"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "644dd749086bf3771a2fbc5f256fdb982d53f011c7d5d560304eafeecebce79d"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "atoi"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1240,6 +1251,7 @@ dependencies = [
  "adapter",
  "anyhow",
  "api",
+ "async-trait",
  "axum",
  "registry",
  "shared",
